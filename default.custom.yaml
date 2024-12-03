@@ -1,0 +1,27 @@
+patch:
+  "menu/page_size": 8
+  # 切换中英：
+  # 不同的选项表示：打字打到一半时按下了 CapsLock、Shift、Control 后：
+    # commit_code  上屏原始的编码，然后切换到英文
+    # commit_text  上屏拼出的词句，然后切换到英文
+    # clear        清除未上屏内容，然后切换到英文
+    # inline_ascii 切换到临时英文模式，按回车上屏后回到中文状态
+    # noop         屏蔽快捷键，不切换中英，但不要屏蔽 CapsLock
+  "ascii_composer/good_old_caps_lock": false  # mac设置为casplock切换大小写时，此功能无用 # true 切换大写| false 切换中英
+  "ascii_composer/switch_key/Caps_Lock": noop # mac设置为casplock切换大小写时，此功能无用
+  "ascii_composer/switch_key/Shift_L": noop
+  "ascii_composer/switch_key/Shift_R": noop
+  "ascii_composer/switch_key/Control_L": noop
+  "ascii_composer/switch_key/Control_R": noop
+
+  # 输入时打/上去英文
+  "recognizer/patterns/url_2": "^[A-Za-z]+[.].*"  # 句号不上屏，支持 google.com abc.txt 等网址或文件名，使用句号翻页时需要注释掉
+  "recognizer/patterns/colon": "^[A-Za-z]+:.*"       # 冒号不上屏
+  "recognizer/patterns/underscore": "^[A-Za-z]+_.*"  # 下划线不上屏
+  "recognizer/patterns/slash": "^[A-Za-z]+/.*"       # 斜杠不上屏
+  # `设置为·
+  "punctuator/half_shape/`": '·'
+  "punctuator/full_shape/`": '·'
+  # 只留rime_ice
+  schema_list:
+        - schema: rime_ice
