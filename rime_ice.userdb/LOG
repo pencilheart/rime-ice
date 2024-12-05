@@ -1,2 +1,5 @@
-2024/12/03-23:19:04.789671 0x1e5c2f840 Creating DB /Users/jiaqihan/Library/Rime/rime_ice.userdb since it was missing.
-2024/12/03-23:19:04.809335 0x1e5c2f840 Delete type=3 #1
+2024/12/05-23:15:30.655317 0x1e5c2f840 Recovering log #30
+2024/12/05-23:15:30.658033 0x1e5c2f840 Level-0 table #33: started
+2024/12/05-23:15:30.668836 0x1e5c2f840 Level-0 table #33: 48538 bytes OK
+2024/12/05-23:15:30.684352 0x1e5c2f840 Delete type=3 #29
+2024/12/05-23:15:30.684385 0x1e5c2f840 Delete type=0 #30
