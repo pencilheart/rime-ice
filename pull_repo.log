@@ -1,0 +1,9 @@
+Fri Dec 13 02:42:00 CST 2024 - Starting pull_repo.sh
+https://github.com/iDvel/rime-ice.git
+From https://github.com/iDvel/rime-ice
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+Already up to date.
+fatal: could not read Username for 'https://github.com': Device not configured
+Fri Dec 13 02:42:01 CST 2024 - Finished pull_repo.sh
